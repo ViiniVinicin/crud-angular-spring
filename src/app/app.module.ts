@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Necessário para Angular Material
 import { MatToolbarModule } from '@angular/material/toolbar'; // Importe o módulo
 
+import { AppComponent } from './app.component';
+
 @NgModule({
   declarations: [],
   imports: [
     BrowserModule,
+    AppComponent,
     BrowserAnimationsModule, // Importante para a animação do Angular Material
     MatToolbarModule, // Adicione o MatToolbarModule aqui
   ],
